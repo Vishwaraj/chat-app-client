@@ -58,7 +58,7 @@ const ChatApp = () => {
 
   useEffect(() => {
     // Establish WebSocket connection
-    const newSocket = new WebSocket("ws://chat-app-server-production-2190.up.railway.app:8080");
+    const newSocket = new WebSocket("wss://chat-app-server-production-2190.up.railway.app:8080");
 
     // Set up event listeners
     newSocket.onopen = () => {
