@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from "react";
 // ChatMessage component to render individual chat messages
 const ChatMessage = ({ message, clientId }) => {
   const receivedMessage = message.sentByClient && message.clientId !== clientId;
-  console.log("messages", message); // Check if message was received by the client
+  console.log("messagesss", message); // Check if message was received by the client
 
   return (
     <div style={{ textAlign: receivedMessage ? "right" : "left" }}>
